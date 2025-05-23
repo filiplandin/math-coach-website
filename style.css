@@ -1,0 +1,118 @@
+/* Generella stilregler */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #003366;
+  color: white;
+  padding: 1rem 0;
+}
+header h1 {
+  margin: 0;
+}
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+nav {
+  margin-top: 0.5rem;
+}
+
+/* Hero-sektion */
+.hero {
+  background: linear-gradient(to right, #003366, #0077cc);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+.hero .btn {
+  display: inline-block;
+  background: white;
+  color: #003366;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Om-mig-sektion */
+.about,
+.services,
+.hp-prep,
+.testimonials,
+.contact {
+  padding: 3rem 0;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+/* Testimonials */
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.testimonial {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.rating {
+  float: right;
+  color: gold;
+}
+
+/* Kontaktformulär */
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  padding: 0.75rem 1.5rem;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}

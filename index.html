@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Filip - Math & Physics Coach</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="High-quality tutoring in math, physics, and HP preparation by Filip, a Chalmers student with over 500 hours of teaching experience." />
+  <meta name="keywords" content="math tutor, physics tutor, HP preparation, university math, high school physics, algebra, calculus, linear algebra, Bayesian inference" />
+  <meta name="author" content="Filip" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Filip</h1>
+      <p>Math & Physics Coach | Chalmers Student | Data Science M.Sc.</p>
+      <nav>
+        <a href="#om">About Me</a>
+        <a href="#tjanster">Services</a>
+        <a href="#hp">HP Preparation</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#kontakt">Contact</a>
+        <a href="#" onclick="toggleLanguage()">English/Svenska</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>High-Quality Tutoring in Math & Physics</h2>
+      <p>High School, University & National Exams</p>
+      <a href="#kontakt" class="btn">Book a Free Trial Lesson</a>
+    </div>
+  </section>
+
+  <section id="om" class="about">
+    <div class="container">
+      <h3>About Me</h3>
+      <p>Hello! My name is Filip, and I help students excel in math and physics—from elementary school to university. With over 500 hours of teaching experience and as a master’s student in Data Science & AI at Chalmers, I bring both academic depth and pedagogical expertise.</p>
+      <p>I also have experience coaching for national exams (HP) and scored 1.9 myself.</p>
+    </div>
+  </section>
+
+  <section id="tjanster" class="services">
+    <div class="container">
+      <h3>Services</h3>
+      <ul>
+        <li>Math: Algebra, Calculus, Linear Algebra, Statistics</li>
+        <li>Physics: Mechanics, Electricity, Nuclear Physics</li>
+        <li>Chemistry & Biology for Elementary and High School</li>
+        <li>HP Preparation (with exam experience)</li>
+        <li>University Courses: Single-variable Analysis, Multi-variable Analysis, Bayesian Inference</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="hp" class="hp-prep">
+    <div class="container">
+      <h3>HP Preparation</h3>
+      <p>With my own experience taking the HP exam and my analytical mindset, I help you structure your studies, practice the right material, and take the next step toward your dream program.</p>
+      <p>We focus on:</p>
+      <ul>
+        <li>Quantitative questions</li>
+        <li>Verbal analysis</li>
+        <li>Time management</li>
+        <li>Exam tips & techniques</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h3>Testimonials</h3>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="S" class="avatar" />
+        <strong>Susanne</strong>
+        <p>Perfect! Pedagogic, thorough, and patient. Explained things in a conceptual way. Highly recommended!</p>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="G" class="avatar" />
+        <strong>Ghaith</strong>
+        <p>Perfect! Absolutely great!</p>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="C" class="avatar" />
+        <strong>Celine</strong>
+        <p>Perfect! An excellent teacher! Filip is very pedagogic and engaged.</p>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="L" class="avatar" />
+        <strong>Luka</strong>
+        <p>Perfect! It went very well! Filip was very pedagogic and could explain things I didn't understand in a good way!</p>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="M" class="avatar" />
+        <strong>Magda</strong>
+        <p>Perfect! He is super helpful and effective, he helped my son a lot and I am very satisfied.</p>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="J" class="avatar" />
+        <strong>Jalmar</strong>
+        <p>Filip is a very pedagogic teacher. He has knowledge about most things and helped me with university-level mathematics. He explained the reasoning behind concepts, which gave me a better understanding.</p>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="L" class="avatar" />
+        <strong>Ludvig</strong>
+        <p>It's very hard to find a better teacher than this one. The knowledge he possesses makes his explanations clear and broken down into small parts for easy understanding. Additionally, he is a wonderful person who is very friendly and communicative but also a good listener. So if you have problems with studying, I would absolutely recommend Filip—he is fantastic 10/10!</p>
+      </div>
+      <div class="testimonial">
+        <img src="https://via.placeholder.com/40 " alt="D" class="avatar" />
+        <strong>David</strong>
+        <p>Filip often helped me with math assignments in high school when I didn't know how to approach them, and it was really helpful. He is good at teaching in a pedagogical way and is also very nice :)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="contact">
+    <div class="container">
+      <h3>Contact Me</h3>
+      <p>Want to book a lesson or talk about how I can help you?</p>
+      <form action="mailto:dinmail@domän.se" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required/>
+        <input type="email" name="email" placeholder="Your Email" required/>
+        <textarea name="message" placeholder="Write a message..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Filip - Math & Physics Coach</p>
+      <p><a href="#">LinkedIn</a> | <a href="#">Superprof</a></p>
+    </div>
+  </footer>
+
+  <!-- Language Toggle Script -->
+  <script>
+    function toggleLanguage() {
+      const currentLang = document.documentElement.lang;
+      if (currentLang === 'sv') {
+        document.documentElement.lang = 'en';
+        document.title = "Filip - Math & Physics Coach";
+        document.querySelector('meta[name="description"]').content = "High-quality tutoring in math, physics, and HP preparation by Filip, a Chalmers student with over 500 hours of teaching experience.";
+        document.querySelector('meta[name="keywords"]').content = "math tutor, physics tutor, HP preparation, university math, high school physics, algebra, calculus, linear algebra, Bayesian inference";
+        // Update other elements here...
+      } else {
+        document.documentElement.lang = 'sv';
+        document.title = "Filip - Matematik & Fysik Coach";
+        document.querySelector('meta[name="description"]').content = "Högkvalitativ undervisning i matte och fysik av Filip, en Chalmersstudent med över 500 timmars undervisningsupplevelse.";
+        document.querySelector('meta[name="keywords"]').content = "matematiklärare, fysiklärare, HP-förberedelse, universitetsmatte, gymnasiefysik, algebra, analys, linjär algebra, bayesiansk inferens";
+        // Update other elements here...
+      }
+    }
+  </script>
+
+</body>
+</html>
